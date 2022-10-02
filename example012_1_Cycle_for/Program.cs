@@ -43,8 +43,8 @@ string Replase (string txt, char oldValue, char newValue)
     }
     return result;
 }
-string res = Replase(text, 'в', 'В');
-Console.WriteLine(res);
+string res1 = Replase(text, 'в', 'В');
+Console.WriteLine(res1);
 string newText = Replase(text, 'с', 'С');
 Console.WriteLine(newText);
 
