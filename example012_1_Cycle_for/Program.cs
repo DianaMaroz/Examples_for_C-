@@ -8,8 +8,8 @@
     }
     return result;
 }
-// string res = Method4(4, "ab1");
-// Console.Write (res);
+string res = Method4(4, "ab1");
+Console.Write (res);
 
 //цикл в цикле - таблица умножения
 void MultiplicationTable()
@@ -24,7 +24,7 @@ void MultiplicationTable()
     }
     
 }
-// MultiplicationTable();
+MultiplicationTable();
 
 //Работа со строками
 string text = " Толькi ў сэрцы трывожным пачую "
@@ -43,10 +43,10 @@ string Replase (string txt, char oldValue, char newValue)
     }
     return result;
 }
-// string res = Replase(text, 'в', 'В');
-// Console.WriteLine(res);
-// string newText = Replase(text, 'с', 'С');
-// Console.WriteLine(newText);
+string res = Replase(text, 'в', 'В');
+Console.WriteLine(res);
+string newText = Replase(text, 'с', 'С');
+Console.WriteLine(newText);
 
 // сортировка методом выбора
 int[] array1 = {1, 4, 3, 8, 2, 1, 1, 8};

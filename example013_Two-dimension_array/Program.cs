@@ -62,7 +62,7 @@ int[,] pic = new int[,]
     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 };
 PrintImage(pic);
-FillImage(3,3);
+FillImage(3, 3);
 PrintImage(pic);
 void PrintImage (int[,] image)
 {
@@ -80,7 +80,7 @@ void FillImage(int row, int col)
 {
     if (pic[row, col] == 0)
     {
-        pic[row,col] = 1;
+        pic[row, col] = 1;
         FillImage (row-1, col);
         FillImage (row, col-1);
         FillImage (row+1, col);
